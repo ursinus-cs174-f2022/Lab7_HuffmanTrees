@@ -157,7 +157,8 @@ HuffmanTree* buildHuffmanTree() {
     // is n2, and whose count is the sum of n1 and n2's counts, 
     // and add this new node to the queue.
     // The last node on the queue should become the root of the tree
-    
+    HuffmanTree* tree = new HuffmanTree();
+
     // Step 3: Make the codebook
     tree->makeCodebook();
     return tree;
